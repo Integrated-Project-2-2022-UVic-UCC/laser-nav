@@ -8,7 +8,7 @@
 
 
 ## Calcular las distancias a partir de las coordenadas de los espejos y el ángulo
-
+import math
 ## Valores de prueba:
 x1=3
 y1=0.5
@@ -16,13 +16,15 @@ x2=2.25
 y2=2
 x3=0
 y3=1.5
-alpha1=0.8148269164 		##radianes
-alpha2=0.6689640743 		##radianes
+alpha1=float(input("alpha 1: "))*math.pi/180#0.8148269164 		##radianes
+alpha2=float(input("alpha 2: "))*math.pi/180#0.6689640743 		##radianes
+print(alpha1)
+print(alpha2)
 
 
 ## EL CODIGO EMPIEZA AQUI
 
-import math
+
 
 l1=3 		##medida del eje x de la superficie considerada
 l2=2 		##medida del eje y de la superficie considerada

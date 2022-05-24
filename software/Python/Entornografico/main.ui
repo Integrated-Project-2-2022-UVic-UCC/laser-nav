@@ -38,7 +38,7 @@
      <rect>
       <x>190</x>
       <y>70</y>
-      <width>111</width>
+      <width>51</width>
       <height>131</height>
      </rect>
     </property>
@@ -46,7 +46,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>483625.jpg</pixmap>
+     <pixmap resource="logo1.qrc">:/newPrefix/proto1.jpg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -71,9 +71,9 @@
      <string>PushButton</string>
     </property>
    </widget>
-   <zorder>label_2</zorder>
    <zorder>pushButton</zorder>
    <zorder>label</zorder>
+   <zorder>label_2</zorder>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
